@@ -33,6 +33,8 @@ _A pioneering benchmark bridging large multimodal models with the visual deciphe
   <sup>†</sup>Equal contribution &nbsp;&nbsp; <sup>★</sup>Corresponding authors
 
 </div>
+
+[中文版-知乎](https://zhuanlan.zhihu.com/p/1956020319623034726)
 </div>
 
 <p align="center">
