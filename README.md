@@ -49,9 +49,27 @@ Examples of reference point heatmaps:
 
 
 ## Release
-- [TBA] Public datasets release.  
+- [2025/09/29] 🔥 PictOBI-20k and code have been released !
 - [2025/09/09] 🔥 Github repository for **PictOBI-20k** is online.
 
+## Dataset 📦
+You can download the PictOBI-20k by [Netdisk](https://pan.sjtu.edu.cn/web/share/81955045aeacc10b8193217a8de71894) with extraction code: rtx1 or [huggingface](https://huggingface.co/datasets/Fossilman/PictOBI-20k/tree/main).
+
+## Implementation 💻
+We recommend directly installing the environment for the model to be evaluated.
+
+1. Such as [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct), [InternVL3](https://huggingface.co/OpenGVLab/InternVL3-78B), and [OpenAI](https://platform.openai.com/docs/overview).
+
+2. Download the PictOBI-20k and unzip it to current path. You will have two json files (i.e., __quiz_data.json__ for __MCQ evaluation__; __quiz_reference_point.json__ for reference point exploration) and three image folders (__OBC_image__, __object_image__, and __reference_point_quiz__).
+3. _Multi-choice question evaluation_: We provide three pairs of code examples for proprietary LMM ([GPT](./gpt.py)) and open-source LMMs ([Qwen25-vl-72B](./qwen25-vl-72B.py) and [InternVL3-78B](./internvl3-78B.py)).
+
+Run it directly:
+```
+python gpt.py  # add your api_key first
+python qwen25-vl-72B.py
+python internvl3-78B.py
+```
+4. _Reference point explore_: We provide three pairs of code examples also, which are ended with __-refpoint.py__.
 
 ## Benchmark Design
 ##### Focusing on the Visual-Decipherment Abilities of LMMs for OBCs
@@ -106,16 +124,13 @@ We evaluate **11** LMMs—including GPT-4o, Gemini 2.5 Pro, Claude 4 Sonnet, GLM
 </details>
 
 
-## Dataset 📦
-- [x] To be released with `dataset/` OBC and real-object image
-
 ## Contact 📧
 Please contact the authors for queries.
 
 - Zijian Chen, `zijian.chen@sjtu.edu.cn`
 
 ## Citation📎
-If you find our work interesting, please feel free to cite our paper:
+If you find our work useful, please feel free to cite our paper:
 ```
 @article{chen2025pictobi20kunveilinglargemultimodal,
       title={PictOBI-20k: Unveiling Large Multimodal Models in Visual Decipherment for Pictographic Oracle Bone Characters}, 
