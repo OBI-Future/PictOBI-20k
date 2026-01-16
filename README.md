@@ -51,6 +51,7 @@ Examples of reference point heatmaps:
 
 
 ## Release
+- [2026/1/17] 🔥🔥🔥 PictOBI-20k has been accepted by the ICASSP2026!
 - [2025/12/24] 🔥 PictOBI-20k has been included in the annual-benchmark list of [OpenCompass](https://hub.opencompass.org.cn/2025-annual-benchmark)!
 - [2025/09/29] 🔥 PictOBI-20k and code have been released !
 - [2025/09/09] 🔥 Github repository for **PictOBI-20k** is online.
