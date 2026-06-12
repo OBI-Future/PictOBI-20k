@@ -13,8 +13,8 @@ import subprocess
 import json
 
 client = OpenAI(
-    base_url = "http://35.220.164.252:3888/v1/",
-    api_key = "sk-wc3xglLgyAcbBEHRagx6WSCZ9LksRFB50UdN5URoobqHjRXK"
+    base_url = "xxxx",
+    api_key = "xxxxxx"
 )
 
 
