@@ -129,18 +129,20 @@ We evaluate **11** LMMs—including GPT-4o, Gemini 2.5 Pro, Claude 4 Sonnet, GLM
 
 
 ## Contact 📧
-Please contact the authors for queries.
+Please contact the first author for queries.
 
 - Zijian Chen, `zijian.chen@sjtu.edu.cn`
 
 ## Citation📎
 If you find our work useful, please feel free to cite our paper:
 ```
-@article{chen2025pictobi20kunveilinglargemultimodal,
-      title={PictOBI-20k: Unveiling Large Multimodal Models in Visual Decipherment for Pictographic Oracle Bone Characters}, 
-      author={Zijian Chen and Wenjie Hua and Jinhao Li and Lirong Deng and Fan Du and Tingzhu Chen and Guangtao Zhai},
-      journal={arXiv preprint arXiv:2509.05773},
-      year={2025},
+@inproceedings{chen2026pictobi,
+  title={Pictobi-20k: Unveiling large multimodal models in visual decipherment for pictographic oracle bone characters},
+  author={Chen, Zijian and Hua, Wenjie and Li, Jinhao and Deng, Lirong and Du, Fan and Chen, Tingzhu and Zhai, Guangtao},
+  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={11937--11941},
+  year={2026},
+  organization={IEEE}
 }
 ```
 
