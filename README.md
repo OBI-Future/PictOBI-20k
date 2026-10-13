@@ -3,7 +3,7 @@
 <a href="https://github.com/OBI-Future/PictOBI-20k"><img src="https://visitor-badge.laobi.icu/badge?page_id=OBI-Future/PictOBI-20k"/></a>
     <a href="https://github.com/OBI-Future/PictOBI-20k"><img src="https://img.shields.io/github/stars/OBI-Future/PictOBI-20k"/></a>
     <a href="https://arxiv.org/abs/2509.05773"><img src="https://img.shields.io/badge/Arxiv-2509.05773-red"/></a>
-    <a href="https://github.com/OBI-Future/PictOBI-20k"><img src="https://img.shields.io/badge/Awesome-PictOBI--20k-orange"/></a>
+    <a href="https://huggingface.co/datasets/CCZZJJ/PictOBI-20k"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FCCZZJJ%2FPictOBI-20k&query=%24.downloads&label=downloads&logo=huggingface&color=yellow"/></a>
 </div>
 
 <h1>PictOBI-20k: Unveiling Large Multimodal Models in Visual Decipherment for Pictographic Oracle Bone Characters 🔍</h1>
